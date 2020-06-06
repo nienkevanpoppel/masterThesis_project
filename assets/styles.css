@@ -1,0 +1,383 @@
+@font-face {
+   font-family: Menlo;
+   src: url(./fonts/Menlo-Regular.woff); 
+}
+
+@font-face { 
+   font-family: FiraSans-Bold;
+   src: url(./fonts/FiraSans-Bold.ttf); 
+}
+
+@font-face { 
+   font-family: FiraSans;
+   src: url(./fonts/FiraSans-Regular.ttf); 
+}
+
+
+body {
+   font-family: FiraSans;
+   background-color: #aadef6;
+}
+
+ .mt2{ 
+   margin-top: 4em !important;
+}
+
+.ml3 { 
+   margin-left: 5em !important; 
+}
+
+.mb2 { 
+   margin-bottom: 1em;
+}
+
+.centered { 
+   margin: auto;
+}
+
+h5 {
+   margin: auto;
+   font-size: 1em;
+}
+
+h2 {
+   font-size: 1em;
+}
+
+.line { 
+   margin: 0;
+}
+
+.header { 
+   display: flex;
+}
+
+.flex {
+   display: flex;
+}
+
+.wrapper {
+   display: flex;
+   flex-direction: row;
+   justify-content: space-evenly;
+   margin: auto;
+   align-items: flex-start;
+}
+
+.header { 
+   display: flex;
+}
+
+.title {
+   font-size: 5em;
+   width: 50%;
+   text-align: center;
+   margin: auto;
+   font-family: FiraSans-Bold;
+   text-transform: uppercase;
+   -webkit-text-fill-color: #36213E; 
+   -webkit-text-stroke-width: 1px;
+   -webkit-text-stroke-color: #abb6e8;
+   text-shadow: 6px 6px 0px #abb6e8;
+}
+
+.title--small {
+   font-family: FiraSans-Bold;
+   margin: auto;   
+   font-size: 30px;
+   text-transform: uppercase;
+   -webkit-text-fill-color: #36213E; /* Will override color (regardless of order) */
+   -webkit-text-stroke-width: 1px;
+   -webkit-text-stroke-color: #abb6e8;
+   text-shadow: 2px 2px 0px #abb6e8;
+}
+
+.title--adjusted { 
+   margin-left: 25%;
+   margin-right: 0;
+}
+.block { 
+   top: 2em;
+   position: relative;
+   border-radius: 20px 20px 0  0;
+   overflow: hidden;
+   text-align: center;
+   width: 100%;
+   padding-bottom: 2em;
+   color: black;
+   background-color: white;
+   border: 0px;
+   box-shadow: 6px 6px 0px #abb6e8;
+}
+
+ .block--vacancy {
+   width: 25% ;
+   text-align: left ;
+}
+
+.block--leftAlign {
+   width: 60%;
+   text-align: left;
+}
+
+.block__mail { 
+   width: 40%;
+   top: 2em;
+   position: relative;
+   border-radius: 20px 20px 0  0;
+   background-color: white;
+   box-shadow: 6px 6px 0px #abb6e8;
+}
+
+.block__content { 
+   padding: 2em;
+}
+
+.block__top { 
+   display: flex;
+   background-color: #abb6e8;
+   border-radius: 20px 20px 0  0;
+   font-family: FiraSans-Bold;
+   width: 100%;
+   padding: 1em;
+   justify-content: space-between;
+   align-content: center;
+   align-items: center;
+}
+
+.block__X {
+   position: relative;
+   width: 20px;
+   height: 20px;
+}
+
+.resume__text  {
+   width: 100%;
+   display: flex;
+   flex-direction: row;
+   align-content: stretch;
+   margin-bottom: 1em;
+}
+
+.resume__header { 
+   font-size: 15px;
+   font-family: FiraSans-Bold;
+   width: 30%;
+}
+
+.input{
+   text-align: left;
+   background-color: transparent;
+   border: 0px;
+   padding: 0;
+   font-family: FiraSans;
+   font-size: 15px;
+   width: 70%;
+}
+
+ .clickable {
+   cursor: pointer;
+ }
+
+.circle { 
+   width: 20px;
+   height: 20px;
+   border-radius: 50%;
+   border: 1px solid white;
+   position: relative;
+}
+
+ .circle--empty { 
+   width: 20px;
+   height: 20px;
+   position: relative;
+ }
+
+ .button { 
+   width: fit-content;
+   font-family: FiraSans-Bold;
+   display: inline-block;
+   border: none;
+   padding: 1rem 2rem;
+   /* margin: 0; */
+   text-decoration: none;
+   background-color: transparent;
+   border: 1px solid transparent;
+   font-size: 1rem;
+   text-align: center;
+   -webkit-appearance: none;
+   -moz-appearance: none;
+   cursor: pointer;
+   display: flex;
+   background-color: #f55a96;
+   color: white;
+ }
+
+
+.button:hover{
+   background-color: transparent;
+   border-color: #f55a96;
+   color: black;
+}
+
+ a {
+   color: black;
+}
+
+a:hover {
+   color: inherit;
+}
+
+ .button:disabled{ 
+   background-color: transparent;
+   color: rgb(212, 212, 212);
+   border-color: rgb(212, 212, 212);
+   cursor: auto;
+}
+
+.button__group {
+   display: flex;
+   justify-content: space-evenly;
+   margin-top: 1.5em;
+   align-items: center;
+}
+
+.dispute__group { 
+   width: 50%;
+   margin: auto;
+}
+ 
+.link { 
+   color: white;
+   text-decoration: none;
+}
+
+.job_invitation { 
+   width: 25%;
+   display: flex;
+   flex-direction: column;
+} 
+
+.job_resume { 
+   display: flex;
+   flex-direction: column;
+   align-content: stretch;
+   padding: 2em 2em;
+}
+
+.result {
+   height: 40px;
+   width: 40px;
+   border-radius: 50%;
+}
+
+.bonus {
+   font-family: FiraSans-Bold;
+   margin: auto;   
+   font-size: 30px;
+   text-align: left;
+   text-transform: uppercase;
+   -webkit-text-fill-color: #36213E; /* Will override color (regardless of order) */
+   -webkit-text-stroke-width: 1px;
+   -webkit-text-stroke-color: #abb6e8;
+   text-shadow: 2px 2px 0px #abb6e8;
+   width: 25%;
+}
+
+.bonus__count {
+   margin-left: 0.5em;
+}
+
+.algorithm_opinion{ 
+   width: 30%;
+   justify-content: space-between;
+   display: flex;
+   margin-top: 1em;
+   margin-left: auto;
+   margin-right: auto;
+}
+
+.resume_count { 
+   justify-content: space-between;
+   display: flex;
+}
+
+#resume_count {
+   margin-left: 3px;
+   margin-right: 3px;
+}
+
+.opinion {
+   font-family: FiraSans-Bold;
+}
+
+.modal__text{ 
+   text-align: center;
+}
+
+.modal-title {
+   margin: 0;
+   width: 100%;
+}
+
+.modal-content { 
+   border: 0;
+}
+
+.modal__algorithm { 
+   color: greenyellow;
+}
+
+.modal-body {
+   margin: 0 2em;
+   text-align: left;
+   padding: 2em;
+}
+
+.modal-footer {
+   border: none;
+}
+
+.modal-header { 
+   text-align: center;
+   border: none;
+   width: 100%;
+   padding: 0;
+}
+
+.closeBtn { 
+   background-color: transparent;
+   border: none;
+   width: 25px;
+   height: 25px;
+}
+
+.modal__body {
+   font-family: Menlo;
+   color: white;
+   background-color: black;
+}
+
+.finish__page{ 
+   padding: 5em;
+}
+
+.gotIt{
+   width: 25%;
+   margin-top: 8em;
+   margin-left: auto;
+   margin-right: auto;
+   display: flex;
+}
+
+.external__link{
+   padding-top: 1em;
+   color: blue;
+}
+
+.version { 
+   color: white;
+   position: absolute;
+   left: 1em;
+   top: 1em;
+}
